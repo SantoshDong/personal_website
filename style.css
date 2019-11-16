@@ -1,184 +1,230 @@
-*{
+* {
     font-family: "Times New Roman", Times, serif;
 }
-.row{
-    margin:0px!important;
+
+.row {
+    margin: 0px !important;
+}
+.for_about_row{
+    color:white;
+    font-size:1.5em;
+    background-color:black;
+    padding:2vw;
 }
 html {
     scroll-behavior: smooth;
     box-sizing: border-box;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     font-size: 16px;
-    overflow-x:hidden; 
+    overflow-x: hidden;
     font-family: "Times New Roman", Times, serif;
-  }
- .body{
-     overflow-x:hidden;
+}
 
-     display: block;
-     content: "";
-     height: 4rem;
-     margin-top: -4rem;
- }
- .clearfix::after {
+.body {
+    overflow-x: hidden;
+
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+.img36_div{
+}
+.for_insta_info{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3vh;
+    font-size: 1.3em;
+}
+.for_profile {
+    padding: 10%;
+    padding-top: 20px;
+    background-color: black;
+}
+
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
-  }
-  .insta_button img{
-      width:20%;
-      height:5vw;
-      border-radius:1vw;
-  }
- /*for hero image*/
- .home h1.hero-text{
-     color:white;
-     font-weight:900;
-     font-size:4em;
- }
- /* for navigation */
- .column1{
-    padding:0em .5em!important;
+}
+
+.insta_button img {
+    width: 20%;
+    height: 5vw;
+    border-radius: 1vw;
+}
+
+/*for hero image*/
+.home h1.hero-text {
+    color: white;
+    font-weight: 900;
+    font-size: 4em;
+}
+
+/* for navigation */
+.column1 {
+    padding: 0em .5em !important;
     position: relative;
     margin: auto;
     overflow: hidden;
 }
-.navbar{
 
-     text-transform: uppercase;
-     font-weight:500;
-     font-size:1rem;
-     letter-spacing:.1rem;
-     background:rgba(0,0,0,0.8)!important;
+.navbar {
 
- }
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.8) !important;
 
- .navbar-brand img{
-height:2rem;
- }
- .navbar-nav li a{
-      text-align:center;
- }
- .navbar-dark .navbar-nav .nav-link{
-     color:white;
-     padding:0vw 2vw;
- }
- .navbar-dark .navbar-nav .nav-link:hover{
-color: #1ebba3;
 }
-.home{
-    width:100%;
-    height:100vh;
+
+.navbar-brand img {
+    height: 2rem;
+}
+
+.navbar-nav li a {
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding: 0vw 2vw;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1ebba3;
+}
+
+.home {
+    text-align: center;
+    padding-top: 15%;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
     background-image: url('images/received_2374209236183499.jpeg');
-    background-size:cover;
-    position:relative;
-    overflow-x:hidden;
-    background-position:center;
-    background-attachment:fixed;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+    background-position: center;
+    background-attachment: fixed;
 
 }
 
-.test_text{
-    position:absolute;
-    color:white;
-    left:50%;
-    top:20%; 
+.test_text {
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 20%;
     vertical-align: middle;
 }
-.test_text2{
-    position:absolute;
-    font-size:100px;
-    color:white;
-    text-align:center;
-    top:75%; 
+
+.test_text2 {
+    position: absolute;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    top: 75%;
     vertical-align: middle;
 }
-#heading_vertical{
+
+#heading_vertical {
     width: 50px;
-    font-size:60px;
+    font-size: 60px;
     word-wrap: break-word;
 }
-#heading_horizontal{
-    text-align:center;
-    display:flex;
-    letter-spacing:1rem;
+
+#heading_horizontal {
+    text-align: center;
+    display: flex;
+    letter-spacing: 1rem;
 }
+
 /*css for gallery*/
-.gallery_div{
-    width:100%;
-    height:auto;
-    background-color:black;
+.gallery_div {
+    width: 100%;
+    height: auto;
+    background-color: black;
 }
 
 /*@media only screen and (max-width: 600px) {
   
 }*/
 
-.gallery .column1 img{
-    height:50vh;
+.gallery .column1 img {
+    height: 50vh;
     max-width: 100%;
     transition: all 0.5s;
     display: block;
     width: 100%;
     transform: scale(1);
 }
-.gallery .column1:hover img{
+
+.gallery .column1:hover img {
     transform: scale(1.1);
 }
 
-.column2{
-    background-color:white; 
+.column2 {
+    background-color: white;
 }
-.profile_div{
-  
-    height:auto;
-    background-color:black;
+
+.profile_div {
+
+    height: auto;
+    background-color: black;
 }
+
 /*work div starts here*/
 
 
 /*for insta fed*/
-#img-responsive2{
-  display:fit-content;
-  height:255px;
-  width:100%;
-  }
-  
-.instaimg img:hover {
-  opacity:0.8;
-  -moz-opacity:0.8;
-  -webkit-opacity:0.8;
-}
-
-.description-container{
-  padding-bottom:20px;
-}
-.insta_gallery{ 
-    background-color:black;
-    color:white;
-    padding-left:10%;
-    padding-right:10%;
-    display:flex;
-}
-.insta_button{
-    position:absolute;
+#img-responsive2 {
+    display: fit-content;
+    height: 45vh;
     width: 100%;
 }
-.insta_button img {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+
+.instaimg img:hover {
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -webkit-opacity: 0.8;
 }
 
-.insta_button2{
-    background-image: url(./images/follow_me.png);
-    width:100%;
-    height:100px;
-    background-repeat: no-repeat;
-    display:center;
-    padding-left:50%;
-    
+.description-container {
+    padding-bottom: 20px;
 }
+
+.insta_gallery {
+    background-color: black;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+}
+
+.insta_button {
+    position: absolute;
+    width: 100%;
+}
+
+.insta_button img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.insta_button2 {
+    background-image: url(./images/follow_me.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    display: center;
+    padding-left: 50%;
+
+}
+
 /*@media only screen and (max-width: 600px)
 img {
     width: auto;
@@ -187,138 +233,213 @@ img {
 }*/
 
 /* form css start here */
-.work_div{
+.work_div {}
+
+.div1-sa {
+    width: 100%;
+    display: flex;
+    color: black;
+    padding: 10px;
+}
+
+.first1_div {
+    display: block;
+    width: 20%;
+    font-size: 16px;
+}
+
+.first1_div h4 {
+    text-align: center;
+    font-size: 16px;
 
 }
-.div1-sa{
-    width:100%;
-    display:flex;
-    color:black;
-    padding:10px;
- }
-    .first1_div{
-        display:block;
-    width:20%;
-    font-size:16px;
-    }
-    .first1_div h4{
-        text-align:center;
-        font-size:16px;
 
-    }
-    .second2_div{
-        display:block;
-    width:80%;
-    }
-    input[type=text],input[type=tel],input[type=email]{
-    width:90%;
-    height:40px;
-    font-size:16px;
-    padding:10px;
-    }
-    input[type=submit]{
-    border:none;
-    background-color:white;
-    }
-    textarea{
-    width:90%;
-    }
-    /*css for footer*/
-    .footer{
-        background-color:black;
-        color:white;
-        height:60px;
-    }
-    .footer h5{
-        text-align:center;
-        font-size:16px;
-        padding-top:10px;
+.second2_div {
+    display: block;
+    width: 80%;
+}
 
-    }
-.h6class{
-  padding-top:10px;
+input[type=text],
+input[type=tel],
+input[type=email] {
+    width: 90%;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+input[type=submit] {
+    background-color: white;
+    padding: .5em 1.5em;
+    border-radius: 5vw;
+}
+
+textarea {
+    width: 90%;
+    border:1px solid black;     
+}
+
+/*css for footer*/
+.footer {
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+.footer h5 {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
 
 }
-.h6classe h6{
-    font-size:10px;
-    font-family:sans-serif;
+
+.h6class {
+    padding-top: 10px;
+
+}
+
+.h6classe h6 {
+    font-size: 10px;
+    font-family: sans-serif;
     text-decoration: none;
-    
-}
-.social_images-profile{
-    margin-top:5vh;
-}
-.social_images-profile a{  
-    text-decoration:none;
-    padding:1em;
-    color:black;
-}
-.social_images-profile a:hover i{
-    transform:scale(1.3);
-    color:lightseagreen;
-}
-.work_image img{
-    width:100%;
-    height:50vh;
-}
-.divTableRow{
-display:flex;
-padding-top:5px;
-}
-.divTableCell{
-display:block;
 
 }
-.divTableCell{
-display:block;
+
+.social_images-profile {
+    margin-top: 5vh;
 }
-div ul li{
-    word-spacing:5px;
+
+.social_images-profile a {
+    text-decoration: none;
+    padding: 1em;
+    color: black;
 }
-@media only screen and (max-width: 720px) {
- 
-   .navbar-dark .navbar-nav .nav-link{
-    border-top:1px solid #f2f2f2;
+
+.social_images-profile a:hover i {
+    transform: scale(1.3);
+    color: lightseagreen;
 }
-.column1{
-    padding:0px!important;
+
+.work_image img {
+    width: 100%;
+    height: 50vh;
 }
-.gallery .column1 img{
-    width:100%;
-    height:200px;
-    margin-top:0px;
+
+.divTableRow {
+    display: flex;
+    padding-top: 5px;
 }
-.work_image{
-    width:50%;
-    height:auto;
+
+.divTableCell {
+    display: block;
+
 }
-.work_div{
-padding:20px;
+
+.divTableCell {
+    display: block;
 }
-.work_div img{
-    height:200px;
+
+div ul li {
+    word-spacing: 5px;
 }
- .activity img{
-     height:150px;
- }
- .activity{
-     width:50%;
-     height:auto;
- }
- #img-responsive2{
-    display:fit-content;
-    height:200px;
-    width:100%;
+@media only screen and (max-width:900px) and (min-width:768px){
+    .navbar-dark .navbar-nav .nav-link {
+        padding: 0vw 2vw!important;
+        font-size:1.5vw;
     }
-    .home{
-        width:100%;
-        height:80vh;
-        background-image: url('images/received_2374209236183499.jpeg');
-        background-size:cover;
-        position:relative;
+}
+@media only screen and (max-width: 768px) {
+    .for_about_row{
+        font-size:1em;
+    }
+    .for_about_row h1{
+        font-size:2em;
+    }
+    .for_about_row h3{
+        font-size:1.5em;
+    }
+    .first1_div h4 {
+        font-size: 3vw;
+        padding-top:.6em;
+    }
+    input[type=text], input[type=tel], input[type=email] {
+        width: 90%;
+        height: 30px;
+        font-size: 16px;
+        padding: 10px;
+        border:1px solid black;
+        border-radius:5vw;
+    }
+
+    body{
         overflow-x:hidden;
-        background-position:center;
-    
     }
-    
+    .for_profile {
+        padding: 5%;
+    }
+
+    .home h1.hero-text {
+        font-size: 2.5em;
+        margin-top: 1em;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        border-top: 1px solid #f2f2f2;
+        padding: 5vw 2vw;
+    }
+
+    .column1 {
+        margin-bottom: 5%;
+        padding: 0px !important;
+    }
+
+    .gallery .column1 img {
+        height: 50vh;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .work_div {
+        padding: 20px;
+    }
+
+
+    #img-responsive2 {
+        height: 50vh;
+    }
+
+    .home {
+        padding-top: 20%;
+        width: 100%;
+        height: 75vh;
+        background-image: url('images/received_2374209236183499.jpeg');
+        background-size: cover;
+        position: relative;
+        overflow-x: hidden;
+        background-position: center;
+
+    }
+    .column1 {
+        padding: .5em .5em !important;
+
+}
+@media (max-width: 576px){
+    .insta_button img {
+        width: 50%;
+        height: 10vw;
+    }
+    #contact{
+        display:none;
+    }
+    .gallery .column1 img {
+        height: 40vh;
+    }
+    .column1 {
+        padding: .3em .3em !important;
+    }
+.col-xs-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
 }
