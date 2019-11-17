@@ -175,10 +175,6 @@ html {
     height: auto;
     background-color: black;
 }
-
-/*work div starts here*/
-
-
 /*for insta fed*/
 #img-responsive2 {
     display: fit-content;
@@ -224,17 +220,7 @@ html {
     padding-left: 50%;
 
 }
-
-/*@media only screen and (max-width: 600px)
-img {
-    width: auto;
-    overflow: hidden;
-    width: -webkit-fill-available;
-}*/
-
 /* form css start here */
-.work_div {}
-
 .div1-sa {
     width: 100%;
     display: flex;
@@ -370,7 +356,6 @@ div ul li {
         border:1px solid black;
         border-radius:5vw;
     }
-
     body{
         overflow-x:hidden;
     }
@@ -428,7 +413,7 @@ div ul li {
         width: 50%;
         height: 10vw;
     }
-    #contact{
+    #contact_div{
         display:none;
     }
     .gallery .column1 img {
