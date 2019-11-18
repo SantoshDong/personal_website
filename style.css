@@ -1,7 +1,6 @@
 * {
     font-family: "Times New Roman", Times, serif;
 }
-
 .row {
     margin: 0px !important;
 }
@@ -12,7 +11,6 @@
     padding:2vw;
 }
 html{
-    width:100%;
     scroll-behavior: smooth;
     box-sizing: border-box;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -37,26 +35,22 @@ body{
     padding-top: 20px;
     background-color: black;
 }
-
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
-
 .insta_button img {
     width: 20%;
     height: 5vw;
     border-radius: 1vw;
 }
-
 /*for hero image*/
 .home h1.hero-text {
     color: white;
     font-weight: 900;
     font-size: 4em;
 }
-
 /* for navigation */
 .column1 {
     padding: 0em .5em !important;
@@ -64,7 +58,6 @@ body{
     margin: auto;
     overflow: hidden;
 }
-
 .navbar {
     width:100%;
     text-transform: uppercase;
@@ -74,39 +67,32 @@ body{
     background: rgba(0, 0, 0, 0.8) !important;
 
 }
-
 .navbar-brand img {
     height: 2rem;
 }
-
 .navbar-nav li a {
     text-align: center;
 }
-
 .navbar-dark .navbar-nav .nav-link {
     color: white;
     padding: 0vw 2vw;
 }
-
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #1ebba3;
 }
-
 .home {
     text-align: center;
     padding-top: 15%;
     width: 100%;
     max-width: 100%;
-    height: 100vh;
+    height: 50vw;
     background-image: url('images/received_2374209236183499.jpeg');
     background-size: cover;
     position: relative;
     overflow-x: hidden;
     background-position: center;
     background-attachment: fixed;
-
 }
-
 .test_text {
     position: absolute;
     color: white;
@@ -114,7 +100,6 @@ body{
     top: 20%;
     vertical-align: middle;
 }
-
 .test_text2 {
     position: absolute;
     font-size: 100px;
@@ -123,47 +108,39 @@ body{
     top: 75%;
     vertical-align: middle;
 }
-
 #heading_vertical {
     width: 50px;
     font-size: 60px;
     word-wrap: break-word;
 }
-
 #heading_horizontal {
     text-align: center;
     display: flex;
     letter-spacing: 1rem;
 }
-
 /*css for gallery*/
 .gallery_div {
     width: 100%;
     height: auto;
     background-color: black;
 }
-
 /*@media only screen and (max-width: 600px) {
   
 }*/
-
 .gallery .column1 img {
-    height: 50vh;
+    height: 25vw;
     max-width: 100%;
     transition: all 0.5s;
     display: block;
     width: 100%;
     transform: scale(1);
 }
-
 .gallery .column1:hover img {
     transform: scale(1.1);
 }
-
 .column2 {
     background-color: white;
 }
-
 .profile_div {
 
     height: auto;
@@ -172,20 +149,17 @@ body{
 /*for insta fed*/
 #img-responsive2 {
     display: fit-content;
-    height: 45vh;
+    height: 20vw;
     width: 100%;
 }
-
 .instaimg img:hover {
     opacity: 0.8;
     -moz-opacity: 0.8;
     -webkit-opacity: 0.8;
 }
-
 .description-container {
     padding-bottom: 20px;
 }
-
 .insta_gallery {
     background-color: black;
     color: white;
@@ -193,18 +167,15 @@ body{
     padding-right: 5%;
     display: flex;
 }
-
 .insta_button {
     position: absolute;
     width: 100%;
 }
-
 .insta_button img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
 .insta_button2 {
     background-image: url(./images/follow_me.png);
     width: 100%;
@@ -212,7 +183,6 @@ body{
     background-repeat: no-repeat;
     display: center;
     padding-left: 50%;
-
 }
 /* form css start here */
 .div1-sa {
@@ -221,24 +191,19 @@ body{
     color: black;
     padding: 10px;
 }
-
 .first1_div {
     display: block;
     width: 20%;
     font-size: 16px;
 }
-
 .first1_div h4 {
     text-align: center;
     font-size: 16px;
-
 }
-
 .second2_div {
     display: block;
     width: 80%;
 }
-
 input[type=text],
 input[type=tel],
 input[type=email] {
@@ -247,78 +212,60 @@ input[type=email] {
     font-size: 16px;
     padding: 10px;
 }
-
 input[type=submit] {
     background-color: white;
     padding: .5em 1.5em;
     border-radius: 5vw;
 }
-
 textarea {
     width: 90%;
     border:1px solid black;     
 }
-
 /*css for footer*/
 .footer {
     background-color: black;
     color: white;
     height: 60px;
 }
-
 .footer h5 {
     text-align: center;
     font-size: 16px;
     padding-top: 10px;
-
 }
-
 .h6class {
     padding-top: 10px;
-
 }
-
 .h6classe h6 {
     font-size: 10px;
     font-family: sans-serif;
     text-decoration: none;
-
 }
-
 .social_images-profile {
     margin-top: 5vh;
 }
-
 .social_images-profile a {
     text-decoration: none;
     padding: 1em;
     color: black;
 }
-
 .social_images-profile a:hover i {
     transform: scale(1.3);
     color: lightseagreen;
 }
-
 .work_image img {
     width: 100%;
-    height: 50vh;
+    height: 25vw;
 }
-
 .divTableRow {
     display: flex;
     padding-top: 5px;
 }
-
-.divTableCell {
-    display: block;
-
-}
-
 .divTableCell {
     display: block;
 }
-
+.divTableCell {
+    display: block;
+}
 div ul li {
     word-spacing: 5px;
 }
@@ -353,37 +300,29 @@ div ul li {
     .for_profile {
         padding: 5%;
     }
-
     .home h1.hero-text {
         font-size: 2.5em;
         margin-top: 1em;
     }
-
     .navbar-dark .navbar-nav .nav-link {
         border-top: 1px solid #f2f2f2;
         padding: 5vw 2vw;
     }
-
     .column1 {
         margin-bottom: 5%;
         padding: 0px !important;
     }
-
     .gallery .column1 img {
         height: 50vh;
         width: 100%;
         margin-top: 0px;
     }
-
     .work_div {
         padding: 20px;
     }
-
-
     #img-responsive2 {
         height: 50vh;
     }
-
     .home {
         padding-top: 20%;
         width: 100%;
@@ -393,11 +332,10 @@ div ul li {
         position: relative;
         overflow-x: hidden;
         background-position: center;
-
     }
     .column1 {
         padding: .5em .5em !important;
-
+}
 }
 @media (max-width: 576px){
     .insta_button img {
