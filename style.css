@@ -22,11 +22,7 @@ html {
 
 .body {
     overflow-x: hidden;
-
-    display: block;
-    content: "";
-    height: 4rem;
-    margin-top: -4rem;
+    width:100%;
 }
 .img36_div{
 }
@@ -355,9 +351,6 @@ div ul li {
         padding: 10px;
         border:1px solid black;
         border-radius:5vw;
-    }
-    body{
-        overflow-x:hidden;
     }
     .for_profile {
         padding: 5%;
