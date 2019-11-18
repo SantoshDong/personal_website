@@ -339,7 +339,7 @@ div ul li {
 }
 @media (max-width: 576px){
     .work_image img {
-        height: 50vw;
+        height: 60vw;
     }
     .insta_button img {
         width: 50%;
